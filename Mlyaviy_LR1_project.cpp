@@ -92,4 +92,15 @@ void task3() {
 void task4() {
     // Функция разрабатывается dev4
     // Здесь нужно вывести сумму кодов ASCII символов ch1 и ch2
+    char ch1, ch2;
+    
+    // Запрашиваем два символа
+    cout << "Enter the first character (ch1): ";
+    cin >> ch1;
+    cout << "Enter the second character (ch2): ";
+    cin >> ch2;
+    
+    // Вычисляем и выводим сумму ASCII кодов
+    int sum = int(ch1) + int(ch2);
+    cout << "The sum of ASCII codes of '" << ch1 << "' and '" << ch2 << "' is: " << sum << endl;
 }
