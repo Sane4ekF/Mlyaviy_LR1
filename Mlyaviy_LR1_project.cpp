@@ -64,6 +64,11 @@ void task1() {
 void task2() {
     // Функция разрабатывается dev2
     // Здесь нужно ввести второй символ ch2
+    char ch2;
+    cout << "Enter the second character (ch2): ";
+    cin >> ch2;
+    // Здесь сохраняем введенный символ и выводим его
+    cout << "You entered the character: " << ch2 << endl;
 }
 
 // Реализация функции для Task 3
