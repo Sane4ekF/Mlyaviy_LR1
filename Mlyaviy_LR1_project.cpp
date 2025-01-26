@@ -53,6 +53,11 @@ int main() {
 void task1() {
     // Функция разрабатывается dev1
     // Здесь нужно ввести первый символ ch1
+    char ch1;
+    cout << "Enter the first character (ch1): ";
+    cin >> ch1;
+    // Здесь сохраняем введенный символ и выводим его
+    cout << "You entered the character: " << ch1 << endl;
 }
 
 // Реализация функции для Task 2
