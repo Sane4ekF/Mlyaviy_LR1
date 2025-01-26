@@ -75,6 +75,17 @@ void task2() {
 void task3() {
     // Функция разрабатывается dev3
     // Здесь нужно вывести символы и их коды ASCII
+    char ch1, ch2;
+    
+    // Запрашиваем два символа
+    cout << "Enter the first character (ch1): ";
+    cin >> ch1;
+    cout << "Enter the second character (ch2): ";
+    cin >> ch2;
+    
+    // Выводим символы и их ASCII коды
+    cout << "Character " << ch1 << " has ASCII code " << int(ch1) << endl;
+    cout << "Character " << ch2 << " has ASCII code " << int(ch2) << endl;
 }
 
 // Реализация функции для Task 4
